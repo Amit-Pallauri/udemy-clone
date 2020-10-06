@@ -1,0 +1,5 @@
+export const GET_ALL_COURSES = "GET_ALL_COURSES"
+export const PARTICULAR_COURSE = "PARTICULAR_COURSE"
+export const BUY_COURSE = "BUY_COURSE"
+export const CREATE_COURSE = "CREATE_COURSE"
+export const ADD_VIDEOS = "ADD_VIDEOS"

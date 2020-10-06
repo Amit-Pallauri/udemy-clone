@@ -1,0 +1,11 @@
+.dashboard-container {
+    /* background: rgba(119, 118, 58, 0.466) ; */
+    /* background-image: url('https://images.unsplash.com/photo-1520034475321-cbe63696469a?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=1050&q=80'); */
+    background: rgb(87,196,162);
+background: linear-gradient(45deg, rgba(87,196,162,1) 10%, rgba(40,56,48,0.6197829473586309) 77%);
+}
+.card{
+    margin: 25px;
+    color: rgba(0, 0, 0, 0.637);
+    box-shadow: 2px 2px 10px;;
+} 

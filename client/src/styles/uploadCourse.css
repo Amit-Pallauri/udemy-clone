@@ -1,0 +1,15 @@
+.upload-course-intro{
+    text-align: initial;
+    width: 70%;
+    margin: auto;
+    border-bottom: 1px solid grey;
+    /* height: 15vh; */
+    padding: 20px;
+    padding-left: 18vh;
+}
+
+.course-container{
+    display: flex;
+    justify-content: space-around;
+}
+

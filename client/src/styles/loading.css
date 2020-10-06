@@ -1,0 +1,43 @@
+.container{
+    display:flex;
+    height:100vh;
+    width:100%;
+    align-items:center;
+    justify-content:center;
+  }
+  .box{
+    width:150px;
+    height:150px;
+    background:transparent;
+    border-radius:50%;
+    animation: loaderAnimation infinite 0.5s reverse
+  }
+  @keyframes loaderAnimation {
+    0% {
+      box-shadow: -4px -4px 0px 0px #5d4daf;
+    }
+    12.5% {
+      box-shadow: -4px 0px 0px 0px #299957;
+    }
+    25% {
+      box-shadow: -4px 4px 0px 0px #ee9c22;
+    }
+    37.5% {
+      box-shadow: 0px 4px 0px 0px #cc042f;
+    }
+    50% {
+      box-shadow: 4px 4px 0px 0px #0a5cd6;
+    }
+    62.5% {
+      box-shadow: 4px 0px 0px 0px #d12ba8;
+    }
+    75% {
+      box-shadow: 4px -4px 0px 0px #eeff00;
+    }
+    87.5% {
+      box-shadow: 0px -4px 0px 0px #5d4daf;
+    }
+    100% {
+      box-shadow: -4px -4px 0px 0px #5d4daf;
+    }
+  }

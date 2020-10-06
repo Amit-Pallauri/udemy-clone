@@ -1,0 +1,32 @@
+{
+  "name": "udemy-clone",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "dev": "nodemon server.js",
+    "debug": "ndb server.js"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "body-parser": "^1.19.0",
+    "cloudinary": "^1.23.0",
+    "cors": "^2.8.5",
+    "datauri": "^3.0.0",
+    "dotenv": "^8.2.0",
+    "express": "^4.17.1",
+    "jsonwebtoken": "^8.5.1",
+    "mongoose": "^5.10.5",
+    "multer": "^1.4.2"
+  },
+  "devDependencies": {
+    "bcryptjs": "^2.4.3",
+    "ndb": "^1.1.5",
+    "nodemon": "^2.0.4",
+    "stripe": "^8.97.0",
+    "validator": "^13.1.1"
+  }
+}

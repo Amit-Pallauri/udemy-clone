@@ -1,0 +1,87 @@
+/* first section */
+.first-section{
+    display: flex;
+    justify-content: space-between;
+    height: 100vh;
+    background-image: url("https://images.unsplash.com/photo-1544377193-33dcf4d68fb5?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=1189&q=80"); 
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.first-section-info{
+    background: rgba(11, 110, 105, 0.26);
+    height: 100%;
+    width: 50%;
+}
+.first-section-info-text {
+    overflow: hidden;
+    position: relative;
+    top: 36%;
+}
+
+.first-section-info-text Button {
+    width: 200px;
+    height: 60px;
+    background: rgba(95, 73, 73, 0.747);
+    outline: none;
+    border: none;
+}
+
+/* second section */
+.second-section{
+    height: 30vh;
+    background: rgba(209, 204, 204, 0.582);
+    display: flex;
+    flex-direction: column-reverse;
+    justify-content: center;
+    align-items: center;
+}
+.second-section-info{
+    text-align: center;
+}
+
+/* third section */
+.third-section{
+    background: rgba(91, 116, 103, 0.596);
+    padding: 90px;
+    display: flex;
+    height: 50vh;
+    justify-content: space-around;
+}
+.third-section .cards-info {
+    box-shadow: 2px 2px 10px;
+}
+
+.third-section-images{
+    width: 300px
+}
+
+/* fourth-section */
+.fourth-section{
+    display: flex;
+    justify-content: space-between;
+    height: 80vh;
+}
+.fourth-section-info{
+    /* border: 1px solid red; */
+    background: rgba(171, 177, 171, 0.281);
+    width: 50%
+}
+.fourth-section-info-text{
+    position: relative;
+    top: 40%;
+}
+.fourth-section .illustrated-image img{
+    position: relative;
+    top: 12%;
+    right: 20%;
+    width: 500px;
+}
+.footer-section{
+    height: 20vh;
+    background: black;
+    color: grey;
+}
+.footer-section-info{
+    position: relative;
+    top: 25%;
+}

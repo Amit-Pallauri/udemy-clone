@@ -1,0 +1,17 @@
+.signIn-container{
+    display: flex;
+    justify-content: space-around;
+    height: 92vh;
+}
+.consumer-container2, .uploader-container2{
+    position: relative;
+    top: 30%;
+    width: 40%;
+    height: 280px;
+}
+.hr2{
+    border-left: 1px solid rgba(0, 0, 0, 0.377);
+    height: 60vh;
+    position: relative;
+    top: 15%;
+}

@@ -1,0 +1,19 @@
+.signUp-container{
+    display: flex;
+    justify-content: space-around;
+    height: 92vh;
+} 
+.consumer-container1, .uploader-container1{
+    position: relative;
+    /* border:1px solid black; */
+    top: 20%;
+    width: 40%;
+    height: 280px;
+}
+.hr1{
+    border-left: 1px solid rgba(0, 0, 0, 0.377);
+    height: 50vh;
+    position: relative;
+    top: 15%;
+}
+

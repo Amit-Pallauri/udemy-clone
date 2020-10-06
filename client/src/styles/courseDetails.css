@@ -1,0 +1,42 @@
+
+.course-details-info-container{
+    display: flex;
+    justify-content: space-around;
+}
+.course-details-section{
+    width: 65%;
+}
+.course-info-container{
+    display: flex;
+    justify-content: space-around;
+    border-bottom: 1px solid rgba(54, 53, 53, 0.219);
+    margin-bottom: 15px;
+}
+
+.uploader-info{
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+
+.hr3{
+    border-left: 1px solid rgba(71, 70, 70, 0.445);
+    height: 60px;
+    margin-top: 10px;
+}
+
+.video-list-items{
+    border: 1px solid rgba(77, 76, 76, 0.212);
+    margin: 5px;
+    margin-bottom: 15px;
+    box-shadow: 2px 2px 5px 1px rgba(0, 0, 0, 0.212);
+
+}
+
+.video-list-items:hover{
+    box-shadow: 10px 10px 10px 1px rgba(0, 0, 0, 0.411);
+	transition-duration: .2s;
+	transform:translate(-6px, -5px);
+}
+
+.payment-container{
+    width: 25%;
+}
